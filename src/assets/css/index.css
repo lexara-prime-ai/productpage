@@ -201,6 +201,7 @@ header {
 
 .count {
     font-size: 1rem;
+    color: var(--Black);
 }
 
 .add-btn {
