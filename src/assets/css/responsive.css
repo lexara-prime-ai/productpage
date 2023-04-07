@@ -1,0 +1,117 @@
+:root {
+    /* COLORS */
+    /* PRIMARY */
+    --Orange: hsl(26, 100%, 55%);
+    --Pale-orange: hsl(25, 100%, 94%);
+
+    /* NEUTRAL */
+    --Very-dark-blue: hsl(220, 13%, 13%);
+    --Dark-grayish-blue: hsl(219, 9%, 45%);
+    --Grayish-blue: hsl(220, 14%, 75%);
+    --Light-grayish-blue: hsl(223, 64%, 98%);
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+
+    /* SHADOW */
+    --shadow: 0 1rem 1rem 0 rgba(110, 62, 22, 0.2);
+}
+
+@media (max-width: 920px) {
+    header {
+        border-bottom: none;
+        display: flex;
+    }
+
+    .logo-img {
+        width: 100%;
+    }
+
+    .navigation {
+        display: none;
+        
+    }
+
+    .side-nav-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    .cart-container {
+        justify-content: right;
+        gap: 1rem;
+    }
+
+    .product-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .img {
+        border-radius: 0;
+        margin-top: -100px;
+    }
+
+    .scroll-btn-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 1rem;
+    }
+
+    .arrow {
+        background: var(--White);
+        padding: 1.5rem;
+        clip-path: circle(40% at 50% 50%);
+        top: 15vh;
+        position: relative;
+
+    }
+    
+    .thumbnail {
+        display: none;
+    }
+
+    .product-info {
+        padding-top: 0px;
+        margin-top: -65px;
+        padding: 1rem;
+    }
+
+    .company-name {
+        padding-bottom: .5rem;
+        font-size: .7rem;
+    }
+
+    .product-name {
+        width: 300px;
+        font-size: 1.5rem;
+    }
+
+    .product-description {
+        width: 80%;
+        font-size: .95rem;
+        line-height: 1.6rem;
+    }
+
+    .product-price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+
+    .add-to-cart {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .add-to-cart-buttons {
+        width: 90%;
+    }
+
+    .btn {
+        width: 320px;
+    }
+}
