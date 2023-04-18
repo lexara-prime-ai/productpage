@@ -1,6 +1,6 @@
 ## Frontend Mentor - E-commerce product page
 
-*Live preview : https://productpage.onrender.com
+*Live* preview : https://productpage.onrender.com
 
 *previews:*
 
